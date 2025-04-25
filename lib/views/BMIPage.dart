@@ -47,7 +47,7 @@ class _BMIState extends State<BMI> {
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
-            Navigator.pop(context); // ✅ Corrected navigation back function
+            Navigator.pop(context); 
           },
         ),
         backgroundColor: Color(0xFF2A073C),
